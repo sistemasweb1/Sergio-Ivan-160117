@@ -44,33 +44,7 @@ header label:hover {
 
 .menu li a {
 	display: block;
-	padding: 25px 35px;
+	padding: 29px 35px;
 	color: #fff;
 	text-decoration: none;;
-}
-
-@media (max-width: 768px){
-	header label {
-		display: block;
-	}
-
-	.menu {
-		position: absolute;
-		background: DodgerBlue;
-		width: 70%;
-		margin-left: -70%
-	}
-
-	.menu ul {
-		flex-direction: column;
-	}
-
-	.menu li {
-		border-top: 1px solid #fff;
-	}
-
-	#btn-menu:checked ~ .menu {
-		margin: 0;
-
-	}
 }
